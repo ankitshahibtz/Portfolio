@@ -1,12 +1,12 @@
 import React from "react";
-import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
-import { DiApple, DiAndroid } from "react-icons/di";
-import { FaDev, FaDatabase } from "react-icons/fa";
+import { DiAndroid, DiApple } from "react-icons/di";
+import { FaDatabase, FaDev } from "react-icons/fa";
 import { Animate } from "react-simple-animate";
+import PageHeaderContent from "../../components/pageHeaderContent";
 
-import { personalData } from "./utils";
 import "./styles.scss";
+import { personalData } from "./utils";
 
 const About = () => {
   return (
@@ -29,14 +29,14 @@ const About = () => {
               transform: "translateX(0px)",
             }}
           >
-            <h3 className="developerContent">Front end developer</h3>
+            <h3 className="developerContent">.Net Full Stack Developer</h3>
             <p>
-              Senior front-end developer with 4.5 years of experience designing
-              and building responsive web design and mobile apps in the
-              financial industry. Proficient with CSS and JS Frameworks, with
-              extensive knowledge of UX and user psychology. Notable
-              achievements include boosting the conversion rate of an existing
-              website by 80% with improved code and design.
+            Dedicated and motivated Full Stack Developer with a passion for crafting robust and user-centric web applications.
+ Proficient in both front-end and back-end technologies, adept at leveraging a wide range of programming languages
+ and frameworks to deliver high-quality solutions. Possesses strong problem-solving skills and a keen eye for detail,
+ coupled with a collaborative mindset to work effectively in team environments. Eager to contribute creativity, innovation,
+ and a fresh perspective to dynamic development projects while continually expanding knowledge and skill set in the
+ ever-evolving field of technology
             </p>
           </Animate>
           <Animate

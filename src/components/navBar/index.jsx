@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { FaReact, FaBars } from "react-icons/fa";
+import { FaBars, FaReact } from "react-icons/fa";
 import { HiX } from "react-icons/hi";
+import { Link } from "react-router-dom";
 import { navMenus } from "./config";
 import './styles.scss';
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar">
         <div className="navbar__container">
-          <Link to={"/sangam-mukherjee/"} className="navbar__container__logo">
+          <Link to={"/ankit-shahi/"} className="navbar__container__logo">
             <FaReact size={30} />
           </Link>
           <ul className={click ? "navbar__container__menu active" : "navbar__container__menu"}>

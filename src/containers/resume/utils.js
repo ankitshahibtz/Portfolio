@@ -1,41 +1,41 @@
 export const data = {
   experience: [
     {
-      title: "Senior Consultant",
-      subTitle: "Oracle, Banglore",
+      title: "Web Development",
+      subTitle: "BasketHunt Pvt Ltd, Jharkhand",
       description: [
-        "Involving in Design and Development of the Business requirements and implementing solutions through OSF (Open Store Framework).",
-        "Active Interactions with Clients and Product Managers to troubleshoot and resolve bugs and  backlogs.",
-        "Developed several reusable components using react storybook for internal commerce product.",
-        "Managing deployment using CI/CD pipeline with Jenkins."
+        " Code the design in React as a front-end technology and collaborate with the team.",
+        "Primary goal was to create engaging and user-centric web experiences that captivate business objectives.",
+        "As a web developer, my primary goal was to create engaging and user-centric web experiences that align with business objectives.",
+        "As a web developer, I aimed to create user-centric web experiences aligned with business goals, employing technologies like HTML, CSS, JavaScript, React.js, Node.js, and maintaining collaboration with teams.",
       ],
-      timeLine : "January 2022 - Present"
+      timeLine: "August 2023 - October 2023",
     },
     {
-      title: "Senior Front End Developer",
-      subTitle: "Accenture, Bangalore",
+      title: "Senior Web Developer",
+      subTitle: " Octa-Net Pvt Ltd, Bangalore",
       description: [
         "Worked on performance improved functionalities that includes features like advanced search, Single sign on and Reconciliation tool using React JS , Redux Saga which is used by 15+ clients to maintain tasks and reports for multiple regions.",
-        "Worked on a centralized self-service portal using React JS, Redux Saga, Styled Components."
+        "Worked on a centralized self-service portal using React JS, MongoDB,etc.",
       ],
-      timeLine : "January 2020 - January 2022"
+      timeLine: "October 2023 - December 2023",
     },
     {
-      title: "Associate IT Consultant",
-      subTitle: "ITC Infotech, Bangalore",
+      title: "Java Developer",
+      subTitle: "CodeClause, Pune",
       description: [
-        "Worked closely with UI/UX developers as a part of Digital design studio team, implemented responsive complex dashboard using Highcharts, JavaScript, Bootstrap that will maintain sales and revenue of multiple regions.",
-        "Worked on multiple POCs using HTML, CSS and JavaScript."
+        " I contribute to the design and implementation of Java-based applications, including designing user interfaces, implementing business logic, and managing data.",
+        "I optimize Java code and application performance through refactoring, caching strategies, and algorithm enhancements, ensuring optimal user experience.",
       ],
-      timeLine : "December 2017 - January 2020"
+      timeLine: "December 2023 - January 2024",
     },
   ],
   education: [
     {
-      title: "JIS College Of Engineering",
-      subTitle: "Kalyani, West Bengal",
-      stream : "Electronics and Communication Engineering",
-      description: "8.66 DGPA",
-    }
+      title: "Viva Institute of Science and Technology",
+      subTitle: "Virar, Maharashtra",
+      stream: "Information Technology",
+      description: "3.6 GPA",
+    },
   ],
 };

@@ -1,14 +1,14 @@
-import "./App.scss";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import Home from "./containers/home";
-import About from "./containers/about";
-import Skills from "./containers/skills";
-import Resume from "./containers/resume";
+import "./App.scss";
 import Navbar from "./components/navBar";
-import particlesConfig from "./helpers/particlesConfig";
 import Theme from "./components/theme";
+import About from "./containers/about";
+import Home from "./containers/home";
+import Resume from "./containers/resume";
+import Skills from "./containers/skills";
+import particlesConfig from "./helpers/particlesConfig";
 
 function App() {
   const particlesInit = async (main) => {
@@ -16,7 +16,8 @@ function App() {
   };
 
   const location = useLocation();
-  const renderParticleJsIfCurrentPageIsHomePage = location.pathname === "/sangam-mukherjee/";
+  const renderParticleJsIfCurrentPageIsHomePage =
+    location.pathname === "/ankit-shahi/";
 
   return (
     <div className="App">
@@ -37,10 +38,10 @@ function App() {
         <Theme />
         <Routes>
           {/* create all routes */}
-          <Route path="/sangam-mukherjee/" index element={<Home />} />
-          <Route path="/sangam-mukherjee/about" element={<About />} />
-          <Route path="/sangam-mukherjee/skills" element={<Skills />} />
-          <Route path="/sangam-mukherjee/resume" element={<Resume />} />
+          <Route path="/ankit-shahi/" index element={<Home />} />
+          <Route path="/ankit-shahi/about" element={<About />} />
+          <Route path="/ankit-shahi/skills" element={<Skills />} />
+          <Route path="/ankit-shahi/resume" element={<Resume />} />
         </Routes>
       </div>
     </div>

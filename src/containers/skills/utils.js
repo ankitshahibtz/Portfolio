@@ -1,49 +1,61 @@
 export const skillsData = [
   {
-    label: "WEB TECHNOLOGIES",
+    label: "FRONT-END DEVELOPMENT",
     data: [
       {
-        skillName: "HTML5",
-        percentage: "100",
-      },
-      {
-        skillName: "CSS3",
-        percentage: "100",
-      },
-      {
-        skillName: "BOOTSTRAP",
+        skillName: "HTML5 & CSS3",
         percentage: "100",
       },
       {
         skillName: "JAVASCRIPT",
+        percentage: "100",
+      },
+      {
+        skillName: "BOOTSTRAP",
         percentage: "95",
+      },
+      {
+        skillName: "RAECT",
+        percentage: "95",
+      },
+      {
+        skillName: "ASP.NET",
+        percentage: "90",
       },
     ],
   },
   {
-    label: "LIBRARIES",
+    label: "BACK-END DEVELOPMENT",
     data: [
       {
-        skillName: "REACT JS",
+        skillName: "SQL",
         percentage: "95",
       },
       {
-        skillName: "REDUX SAGA",
-        percentage: "95",
+        skillName: "MONGODB",
+        percentage: "85",
       },
       {
-        skillName: "NEXT JS",
+        skillName: "NODE JS",
         percentage: "80",
       },
+      {
+        skillName: "RESTFUL API",
+        percentage: "85",
+      },
     ],
   },
   {
-    label: "TESTING",
+    label: "PROGRAMMING LANGUAGES",
     data: [
       {
-        skillName: "JEST",
+        skillName: "JAVA",
         percentage: "90",
-      }
+      },
+      {
+        skillName: "PYTHON",
+        percentage: "80",
+      },
     ],
   },
 ];

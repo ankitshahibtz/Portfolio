@@ -1,13 +1,13 @@
 import React from "react";
-import { Animate } from "react-simple-animate";
 import { FaLinkedin } from "react-icons/fa";
+import { Animate } from "react-simple-animate";
+import MyPdf from '../../resume/Updated-CV-Ankit-Shahi.pdf';
 import "./styles.scss";
-import MyPdf from '../../resume/Sangam_Mukherjee_Resume_2022.pdf';
 
 const Home = () => {
   function handleNavigateLinkedin() {
     window.open(
-      "https://www.linkedin.com/in/sangam-mukherjee-400488134/",
+      "https://www.linkedin.com/in/ankit-shahi-99b85622a/",
       "_blank"
     );
   }
@@ -16,9 +16,9 @@ const Home = () => {
     <section className="home" id="home">
       <div className="home__text-wrapper">
         <h1>
-          Hello, I'm Sangam
+          Hello, I'm Ankit Shahi
           <br />
-          Front End Developer.
+          .Net Full Stack Developer.
         </h1>
       </div>
       <Animate
@@ -34,7 +34,7 @@ const Home = () => {
       >
         <div className="contact-me">
           <div className="contact-me__buttons-wrapper">
-            <a href={MyPdf} download="Sangam_Mukherjee.pdf">Download resume</a>
+            <a href={MyPdf} download="Updated-CV-Ankit-Shahi.pdf">Download resume</a>
           </div>
           <div className="contact-me__socials-wrapper">
             <FaLinkedin onClick={handleNavigateLinkedin} size={32} />
