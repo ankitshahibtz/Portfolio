@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ankitshahibtz/Portfolio.git/static/css/main.4addc3cd.css",
+    "main.js": "/ankitshahibtz/Portfolio.git/static/js/main.b79d3cf0.js",
+    "static/media/Updated-CV-Ankit-Shahi.pdf": "/ankitshahibtz/Portfolio.git/static/media/Updated-CV-Ankit-Shahi.eb0b54ad9ee377e28dce.pdf",
+    "index.html": "/ankitshahibtz/Portfolio.git/index.html",
+    "main.4addc3cd.css.map": "/ankitshahibtz/Portfolio.git/static/css/main.4addc3cd.css.map",
+    "main.b79d3cf0.js.map": "/ankitshahibtz/Portfolio.git/static/js/main.b79d3cf0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4addc3cd.css",
+    "static/js/main.b79d3cf0.js"
+  ]
+}
